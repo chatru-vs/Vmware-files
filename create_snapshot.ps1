@@ -1,0 +1,1 @@
+new-snapshot -vm dnipgwinlin -Name CR#xxx_MS_Patch
