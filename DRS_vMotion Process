@@ -1,0 +1,12 @@
+requirement for DRS/vMotion 
+vmkernal is configured to both the Hosts.
+storage should be common.
+permissions should be ok.
+
+DRS/Vmotion start process:
+
+1. check the resource to other machine host like cpu ram etc.
+2. create snapshot in source destination while vmdisk is created to destination Host.
+3. cpu ram i/o output continously moved to destination Host.
+4. once all the resources moved to destination location. 
+5. snapshot removed from source Host and power up VMs to the destination Host.
