@@ -1,0 +1,15 @@
+get-vm dvpgmstest1 | shutdown-vmguest -confirm:$false
+get-vm PVGLMSADS01 | shutdown-vmguest -confirm:$false
+get-vm PVGLMSDHP01 | shutdown-vmguest -confirm:$false
+get-vm PVGLMSFIL01 | shutdown-vmguest -confirm:$false
+get-vm PVGLFONT01 | shutdown-vmguest -confirm:$false
+get-vm PVGLSLSAM01 | shutdown-vmguest -confirm:$false
+get-vm PVGLFONT02 | shutdown-vmguest -confirm:$false
+get-vm PVGLMSADR01 | shutdown-vmguest -confirm:$false
+get-vm PVGLMSADM01 | shutdown-vmguest -confirm:$false
+get-vm PVGLMSSQLX01 | shutdown-vmguest -confirm:$false
+get-vm PVGLMSTFTP01 | shutdown-vmguest -confirm:$false
+get-vm PVGLMSB2TF01 | shutdown-vmguest -confirm:$false
+get-vm PVGLMSCMDP01 | shutdown-vmguest -confirm:$false
+get-vm PVGLMSPRN02 | shutdown-vmguest -confirm:$false
+get-vm PVGLMSFIL02 | shutdown-vmguest -confirm:$false
